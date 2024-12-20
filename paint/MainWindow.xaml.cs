@@ -50,11 +50,12 @@ namespace paint
         {
             Ellipse elipse = new Ellipse();
             elipse.Fill = Brushes.Aqua;
-            elipse.Width = 5;
-            elipse.Height = 5;
+            elipse.Width = 10;
+            elipse.Height = 10;
             Canvas.SetTop(elipse, position.Y);
             Canvas.SetLeft(elipse, position.X);
             CnvPaint.Children.Add(elipse);
+
 
         }
 
