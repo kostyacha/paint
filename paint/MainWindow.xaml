@@ -17,11 +17,12 @@
             <Slider
           Width="100"  
           Minimum="1"
-            Maximum="5"
+            Maximum="10"
             TickFrequency="1"
         IsSnapToTickEnabled="True"
                 Margin="0 0 10 0"
                 Name ="SliderSize"
+                ValueChanged="SliderSize_ValueChanged"
             />
         <Button
             Width="30"
@@ -76,6 +77,7 @@
             HorizontalContentAlignment="Center"
             SelectedIndex="0"
             Name ="ColorPicker"
+            SelectionChanged="ColorPicker_SelectionChanged"
             >
             <ComboBoxItem Content="Black"
                           Foreground="White"
